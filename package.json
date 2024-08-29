@@ -41,9 +41,7 @@
     "recharts": "^2.12.7",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.12.2",
-    "web-vitals": "^2.1.4",
-     "start": "react-scripts start",
-
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
