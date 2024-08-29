@@ -1,0 +1,33 @@
+
+  
+  .label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .input {
+    margin-top: 5px;
+    width: 300px;
+  }
+  
+  .button {
+    margin-top: 5px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .link-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links-box {
+    max-height: 400px;
+    width: 1000px;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  

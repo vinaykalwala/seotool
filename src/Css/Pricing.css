@@ -1,0 +1,208 @@
+/* Wrapper styling */
+.seo-optimization-wrapper {
+    background: #f7f9fc; /* Light background for a clean look */
+    padding: 4rem 1.5rem; /* Add padding for spacing */
+  }
+  
+  /* Header styling */
+  .seo-optimization-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    
+  }
+  
+  .seo-optimization-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #002b5c;
+    margin-bottom: 0.5rem;
+  }
+  
+  .seo-optimization-subtitle {
+    font-size: 1.25rem;
+    color: #0056b3;
+    margin-bottom: 1rem;
+    text-align: center;
+  
+  }
+  
+  .seo-optimization-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #003366;
+  }
+  
+  /* Image container styling */
+  .seo-optimization-image-container {
+    text-align: center; /* Center the image */
+    margin-bottom: 3rem; /* Space below the image */
+  }
+  
+  .seo-optimization-image {
+    max-width: 90%; /* Reduce width to 80% of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+  }
+  
+  /* Card styling */
+  .seo-optimization-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .seo-optimization-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .seo-optimization-card-title {
+    font-size: 1.5rem;
+    color: #002b5c;
+    margin-bottom: 1rem;
+  }
+  
+  .seo-optimization-card-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  /* Main section styling */
+  .html-importance {
+    background-color: #f5f7f9;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content wrapper styling */
+  .content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  
+  /* Section title styling */
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* List layout */
+  .importance-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual entry styling */
+  .importance-entry {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    flex: 1 1 250px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Icon styling */
+  .entry-icon {
+    font-size: 1.6rem;
+    color: #007bff;
+    margin-right: 15px;
+  }
+  
+  /* Text styling */
+  .entry-text {
+    flex: 1;
+  }
+  
+  .entry-text h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .entry-text p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  /* Main section styling */
+  .seo-tool-overview {
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .overview-heading {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Description styling */
+  .overview-description {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 30px;
+  }
+  
+  /* List styling */
+  .overview-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* List item styling */
+  .overview-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon container styling */
+  .icon-container {
+    font-size: 2rem;
+    color: #007bff;
+    margin-right: 15px;
+  }
+  
+  /* Content container styling */
+  .content-container {
+    flex: 1;
+  }
+  
+  /* Item heading styling */
+  .item-heading {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  /* Item description styling */
+  .item-description {
+    font-size: 0.9rem;
+    color: #666666;
+  }

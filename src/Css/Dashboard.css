@@ -1,0 +1,49 @@
+.dashboard {
+    padding: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.charts {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recent-activity {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.recent-activity h2 {
+    margin-bottom: 10px;
+}
+
+.recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recent-activity li {
+    margin-bottom: 5px;
+}
+
+.list-item-button:hover{
+    background-color: #f0f0f0;
+}

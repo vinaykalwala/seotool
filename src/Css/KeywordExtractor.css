@@ -1,0 +1,27 @@
+/* KeywordExtractor.css */
+.keyword-extractor-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 300px;
+    margin-left:300px;
+  }
+  
+  .input-field {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .extract-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

@@ -1,0 +1,142 @@
+.custom-style {
+    border-radius: 10px;        /* Example border radius */
+    padding: 20px;              /* Optional: Add some padding */
+  }
+.abouttext{
+    font-size: 20px;
+    color:aliceblue
+}  
+.border{
+    background-color: #0e0909; /* Example background color */
+
+    border-radius: 30px;        /* Example border radius */
+ 
+}
+
+.orange-heading {
+    color: orange;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .custom-style {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align the text */
+    margin: 20px 0; /* Add margin to the top and bottom */
+  }
+  
+  .custom-paragraph {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* src/Card.css */
+.card {
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card {
+  transition: transform 0.3s ease; /* Add a transition effect */
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  100% {
+    transform: translateY(-5px); /* End position */
+  }
+}
+
+.card:hover {
+  animation: moveUp 0.5s ease forwards; /* Apply animation on hover */
+}
+
+
+
+.card-title {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  color:orange
+}
+
+.card-text {
+  font-size: 1em;
+  color: #333;
+}
+/* Styling for the heading */
+.orange-heading {
+  color: #FFA500; /* Orange color for the heading */
+  font-size: 2.5rem; /* Adjust font size */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Styling for the paragraph */
+.row p {
+  font-size: 1.2rem; /* Adjust font size */
+  line-height: 1.6; /* Increase line height for better readability */
+}
+
+
+
+
+.tick-symbol {
+  color: orange; /* Set the color to orange */
+  margin-right: 5px; /* Add some space between the tick symbol and text */
+}
+.button-txt{
+width: 160px;
+  height: 50px;
+  background-color: rgb(255, 115, 0);
+  border: none;
+  border-radius: 35px; /* Half of the height to make it oval */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px; /* Vertically center the text */
+  cursor: pointer;
+  outline: none; /* Remove the default focus outline */
+}
+
+.button-txt:hover {
+  background-color: #ff3c00;
+}
+
+/* Marquee.css */
+
+.marquee-container {
+  width: 100%; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflowing content */
+  position: relative;
+  background-size: cover; /* Adjust background image size */
+}
+
+.marquee-text {
+  position: absolute;
+  white-space: nowrap; /* Prevent wrapping */
+  animation: marquee 10s linear infinite; /* Adjust animation duration and timing function */
+  font-size: 20px; /* Adjust font size as needed */
+  color: white; /* Text color */
+  font-style: italic; /* Apply font style */
+  padding-right: 100%; /* Ensure text starts offscreen */
+}
+
+@keyframes marquee {
+  0% { left: 100%; } /* Start offscreen */
+  100% { left: -100%; } /* Scroll to the left */
+}
+
+.marque{
+  color:#fff;
+  font-size: 50px;
+font-family: 'Times New Roman', Times, serif;}

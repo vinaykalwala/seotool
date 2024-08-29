@@ -1,0 +1,5 @@
+.blue-border {
+    border: 4px double orange;
+    padding: 20px;
+    margin: 20px;
+}

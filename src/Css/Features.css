@@ -1,0 +1,141 @@
+.custom-style {
+    /* Add your custom styles here */
+  }
+  
+  .orange-heading {
+    color: orange;
+  }
+  
+  /* Card hover effect */
+  .custom-card {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+ 
+.text1{
+  color:#fff;
+}
+  .contact-form-container {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .contact-form h2,
+  .faq h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    width: 100%;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .faq-container {
+    padding: 30px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h5 {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-item h5:hover {
+    background-color: #b30c00;
+  }
+  
+  .faq-item p {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .contact-form-container{
+
+    background: linear-gradient(217deg, rgba(0, 255, 221, 0.466), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);    
+  }
+  .contact-form-container {
+    background-image: url('../assets/blue3.webp'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .work-button {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .work-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .work-button i {
+    display: block;
+  }
+  
+  .work-button i:before {
+    content: '';
+    border-left: 2px solid #fff;
+    height: 50px; /* Adjust height as needed */
+    width: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .work-button:hover i:before {
+    width: 20px; /* Adjust width as needed */
+  }
+
+
+  .accordion-button::after {
+    content: '\002B'; /* Plus sign */
+  }
+  
+  .accordion-button.collapsed::after {
+    content: '\2212'; /* Minus sign */
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    color: orange;
+  }
+    
