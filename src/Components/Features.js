@@ -18,7 +18,6 @@ import slide3 from '../assets/slide3.jpeg';
 import '../Css/About.css'; // Importing CSS file for styling
 import about from '../assets/about.png';
 import '../Css/Features.css'; // Importing CSS file for styling
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward'; // Ensure you have this import
 import digital from '../assets/digital.png'; // Adjust the file path and name accordingly
 import digital2 from '../assets/digital2.png';
 import seologo from '../assets/seologo.png';
